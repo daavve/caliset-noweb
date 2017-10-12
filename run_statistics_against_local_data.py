@@ -4,4 +4,10 @@
 #
 #######################################################
 
+import numpy as np
+from sklearn import calibration
 
+
+
+ccv_bad = calibration.CalibratedClassifierCV()
+ccv_good = calibration.CalibratedClassifierCV()
